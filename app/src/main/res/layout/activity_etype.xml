@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Etype">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E타입"
+        android:fontFamily="@font/webtoon_font"
+        android:textColor="@color/purple_500"
+        android:textSize="45dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="300dp"
+        android:layout_height="130dp"
+        android:layout_margin="40dp"
+        android:fontFamily="@font/nanumfont"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:text="합리적인 가격, 국내 패션 트렌드를 \n즐기는 당신! 분명 무신사 스토어의 고렙 유저시겠죠? 국내를 넘어 \n해외로 가는 무신사의 \n대표 브랜드 베스트 5를 추천드려요!"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                app:srcCompat="@drawable/etype_ab" />
+
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                app:srcCompat="@drawable/etype_covernat" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                app:srcCompat="@drawable/etype_mg" />
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                app:srcCompat="@drawable/etype_thinethat" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

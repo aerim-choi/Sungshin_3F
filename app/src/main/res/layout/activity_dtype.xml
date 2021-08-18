@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Dtype">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="D타입"
+        android:fontFamily="@font/webtoon_font"
+        android:textColor="@color/teal_700"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="300dp"
+        android:layout_height="130dp"
+        android:layout_margin="40dp"
+        android:fontFamily="@font/nanumfont"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:text="세계 트렌드가 시작되는 브랜드를 \n접하는 당신! 비싼 가격보다도 \n멋진 트렌드의 주인공이 되고 싶은 \n당신을 위해 추천하는 \n4개의 브랜드예요."
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:background="@drawable/dtype_balenciage" />
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:background="@drawable/dtype_compagno" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:background="@drawable/dtype_gucci" />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:background="@drawable/dtype_vetments" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

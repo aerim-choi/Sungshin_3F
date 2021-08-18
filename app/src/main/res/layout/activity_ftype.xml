@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Ftype">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="F타입"
+        android:fontFamily="@font/webtoon_font"
+        android:textColor="#55239A"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="300dp"
+        android:layout_height="130dp"
+        android:layout_margin="40dp"
+        android:fontFamily="@font/nanumfont"
+        android:gravity="center_horizontal"
+        android:text="아무나 다 입는 브랜드는 맘에 안들고, 그럼에도 예쁜 옷들은 \n가지고 싶은 당신! 앞으로 떠오를 것 같은 브랜드 위주로 추천드려요!"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                app:srcCompat="@drawable/ftype_cc" />
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_marginEnd="48dp"
+                app:srcCompat="@drawable/ftype_qt8" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                app:srcCompat="@drawable/ftype_woozo" />
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_marginEnd="48dp"
+                app:srcCompat="@drawable/ftype_df" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Btype">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:fontFamily="@font/webtoon_font"
+        android:textColor="@color/secondaryColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B타입"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:fontFamily="@font/nanumfont"
+        android:layout_width="300dp"
+        android:layout_height="130dp"
+        android:layout_margin="40dp"
+        android:textColor="@color/black"
+        android:gravity="center_horizontal"
+        android:text="어느정도 패션에 관심이 있는 당신! \n큰 돈을 들이지 않고 \n(일부 브랜드 제외) 트렌드세터가 \n되고 싶다면 패셔너블한 \n스파 브랜드를 추천드려요!"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/btype" />
+
+</LinearLayout>

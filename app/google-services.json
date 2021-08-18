@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "183760127264",
+    "project_id": "movie-projc",
+    "storage_bucket": "movie-projc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:183760127264:android:abb4a7f63eb69fedd2c345",
+        "android_client_info": {
+          "package_name": "fastcampus.aop.part5.chapter07"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "183760127264-l3rv93rochhtojoov7fflopt62280iqt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYlV6FUxoIsNCqxqKpeYRgjWX_TJ3loGM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "183760127264-l3rv93rochhtojoov7fflopt62280iqt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:183760127264:android:5f51233f2e34b6f1d2c345",
+        "android_client_info": {
+          "package_name": "org.techtown.sungshin3f"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "183760127264-l3rv93rochhtojoov7fflopt62280iqt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYlV6FUxoIsNCqxqKpeYRgjWX_TJ3loGM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "183760127264-l3rv93rochhtojoov7fflopt62280iqt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

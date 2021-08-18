@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Atype">
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="96sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/webtoon_font"
+        android:text="A타입"
+        android:textColor="#F43A3A"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:fontFamily="@font/nanumfont"
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:layout_margin="40dp"
+        android:textColor="@color/black"
+        android:gravity="center_horizontal"
+        android:text="패션에 큰 관심이 없는 당신! \n그래도 이 표를 봤다면 개선되어야겠죠? 옷에 큰 돈을 들이지 않고도 \n패셔너블해지고 싶다면 \n스파브랜드가 어울려요!"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:background="@drawable/atype" />
+
+</LinearLayout>
